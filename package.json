@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node ace test"
+    "test": "node ace test",
+    "build": "node ace build --prod"
   },
   "keywords": [
     "adonisjs",
@@ -24,9 +25,8 @@
     "@adonisjs/framework": "^5.0.7",
     "@adonisjs/ignitor": "^2.0.6",
     "@adonisjs/lucid": "^5.0.4",
-    "sqlite3": "^4.0.1"
+    "sqlite3": "^5.0.5"
   },
-  "devDependencies": {},
   "autoload": {
     "App": "./app"
   }
